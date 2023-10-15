@@ -1,0 +1,32 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f5f8;
+}
+.card-container {
+  background-color: white;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #dfdfdf;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.heading {
+  color: #cb8805;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+  margin: 10px;
+}
